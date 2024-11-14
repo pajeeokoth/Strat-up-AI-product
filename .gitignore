@@ -1,0 +1,18 @@
+# Ignore all files with .log extension
+*.env
+
+# Ignore all files with .log extension
+*.log
+
+# Ignore all files in any directory named temp
+temp/
+
+# Ignore all files in the root directory named debug.log
+/debug.log
+
+# Ignore all files in any directory named logs
+logs/
+
+# Ignore all files in any directory named logs, except logs/important.log
+logs/
+!logs/important.log
